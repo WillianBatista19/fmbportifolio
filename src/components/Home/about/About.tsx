@@ -34,12 +34,12 @@ function about() {
 
                 <Carousel opts={{loop: true,}} plugins={[ Autoplay({ delay: 2000,}),]} className='flex justify-center mb-16 xl:mb-20'>
                     <CarouselContent className='md:-ml-10 xl:-ml-24'>
-                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={Bootstrap} alt="Bootstrap" /></CarouselItem>
-                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={CSS} alt="CSS" /></CarouselItem>
                         <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={HTML} alt="HTML-5" /></CarouselItem>
-                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={Java} alt="Java" /></CarouselItem>
+                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={CSS} alt="CSS" /></CarouselItem>
+                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={Bootstrap} alt="Bootstrap" /></CarouselItem>
                         <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={JS} alt="JS" /></CarouselItem>
                         <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={ReactFrame} alt="React" /></CarouselItem>
+                        <CarouselItem className='flex justify-center md:basis-2/6 xl:basis-1/6 md:pl-10 xl:pl-24 '><img className='w-32' src={Java} alt="Java" /></CarouselItem>
                     </CarouselContent>
                 </Carousel>
             </div>
