@@ -1,4 +1,3 @@
-// import { Carousel, CarouselContent, CarouselItem} from '@/components/ui/carousel';
 import Teste from '../../../assets/projects/teste.jpg'
 import MustangImg from '../../../assets/MT.webp'
 
