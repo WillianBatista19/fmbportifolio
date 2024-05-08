@@ -54,6 +54,8 @@ module.exports = {
 
         "primary-100": "#850A0A",
         "primary-200": "#A70B0B",
+        "primary-300": "#CCD3E0",
+        
       },
       fontFamily: {
         staubach: ["staubach"],

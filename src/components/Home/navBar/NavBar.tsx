@@ -29,10 +29,10 @@ function NavBar() {
         {/* Menu do Canto Direito (2/5 do espaço) */}
         <div className='hidden lg:flex justify-end items-center w-2/5'>
           <div className='ml-10 flex items-baseline space-x-4 font-staubach'>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm lg:text-lg font-medium'>Home</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm lg:text-lg font-medium'>Sobre</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm lg:text-lg font-medium'>Projetos</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm lg:text-lg font-medium'>Contato</a>
+            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Home</a>
+            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Sobre</a>
+            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Projetos</a>
+            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Contato</a>
           </div>
         </div>
 

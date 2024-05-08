@@ -28,10 +28,10 @@ function Projetos() {
 
                 <div className="col-span-3 h-full flex justify-center items-center"> 
                     <div className='grid grid-cols-2 gap-3 justify-center items-center'> 
-                        <a className='flex justify-center m-2 m'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]' src={Teste} alt="Teste"/></a>
-                        <a className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]' src={Teste} alt="Teste"/></a>
-                        <a className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]' src={Teste} alt="Teste"/></a>
-                        <a className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)]' src={Teste} alt="Teste"/></a>
+                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
+                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
+                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
+                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
                     </div>
                 </div>
             </div>
