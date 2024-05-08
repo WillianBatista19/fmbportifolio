@@ -3,6 +3,7 @@ import NavBar from "./components/Home/navBar/NavBar";
 import About from "./components/Home/about/About";
 import Projetos from "./components/Home/projetos/Projetos";
 import Contatos from "./components/Home/contatos/Contatos";
+import Footer from "./components/Home/footer/Footer";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <About />
       <Projetos />
       <Contatos />
+      <Footer />
     </>
   )
 }

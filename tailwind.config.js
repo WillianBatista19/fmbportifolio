@@ -55,6 +55,7 @@ module.exports = {
         "primary-100": "#850A0A",
         "primary-200": "#A70B0B",
         "primary-300": "#CCD3E0",
+        "primary-400": "#424242",
         
       },
       fontFamily: {
