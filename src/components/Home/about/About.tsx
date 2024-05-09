@@ -12,8 +12,8 @@ import Autoplay from "embla-carousel-autoplay"
 function about() {
 
     return (
-        <div className="h-auto xl:h-auto bg-black">
-            <div className='grid grid-cols-1 lg:grid-cols-2 lg:space-y-28'>
+        <div id='sobre' className="h-auto xl:h-screen bg-black">
+            <div className='grid grid-cols-1 lg:grid-cols-2 lg:space-y-10'>
                 <div className='flex justify-center mt-12 md:mb-10 lg:justify-end lg:items-center lg:pr-20 lg:mt-28'>
                     <img className='w-48 md:w-60 lg:w-80' src={Ed2} alt="Ed" />
                 </div>

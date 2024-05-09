@@ -1,6 +1,6 @@
 function Contatos() {
   return (
-    <div className="h-screen bg-black flex items-center">
+    <div id="contatos" className="h-screen bg-black flex items-center">
 
       <div className="max-w-3xl mx-auto w-full">
 

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-scroll';
 import Logo from '../../../assets/Logo.png';
 import Logo2 from '../../../assets/Logo2.png';
 
@@ -12,7 +13,7 @@ function NavBar() {
   return (
     <nav className="bg-black">
 
-      <div className='max-w-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
+      <ul className='max-w-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
 
         {/* Primeira Logo (2/5 do espaço) */}
         <div className='flex items-center w-2/5'>
@@ -28,12 +29,20 @@ function NavBar() {
 
         {/* Menu do Canto Direito (2/5 do espaço) */}
         <div className='hidden lg:flex justify-end items-center w-2/5'>
-          <div className='ml-10 flex items-baseline space-x-4 font-staubach'>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Home</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Sobre</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Projetos</a>
-            <a href="#" className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>Contato</a>
-          </div>
+          <ul className='ml-10 flex items-baseline space-x-4 font-staubach'>
+            <li className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>
+              <Link to="/" spy={true} smooth={true} offset={-21} duration={500} className='cursor-pointer'>Home</Link>
+            </li>
+            <li className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>
+              <Link to="sobre" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>Sobre</Link>
+            </li>
+            <li className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>
+              <Link to="projetos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>Projetos</Link>
+            </li>
+            <li className='hover:bg-gray-700 text-white px-3 py-2 rounded-xl text-sm lg:text-lg font-medium'>
+              <Link to="contatos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>Contatos</Link>
+            </li>
+          </ul>
         </div>
 
         {/* Botão do Menu para Telas Pequenas (Ocupa 2/5 do espaço) */}
@@ -52,16 +61,16 @@ function NavBar() {
           </button>
         </div>
 
-      </div>
+      </ul>
 
       {/* Menu para Telas Pequenas (Oculto por padrão) */}
       <div className={`lg:hidden ${isMobileMenuVisible ? 'block' : 'hidden'}`}>
-        <div className='px-2 pt-2 pd-3 sm:px-3 font-staubach'>
-          <a href="#" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Home</a>
-          <a href="#" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Sobre</a>
-          <a href="#" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Projetos</a>
-          <a href="#" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Contato</a>
-        </div>
+        <ul className='px-2 pt-2 pd-3 sm:px-3 font-staubach'>
+          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Home</li>
+          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Sobre</li>
+          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Projetos</li>
+          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Contato</li>
+        </ul>
       </div>
 
     </nav>

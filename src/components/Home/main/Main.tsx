@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 function Main() {
     return(
-        <div className='bg-primary-100 lg:h-auto'>
+        <div id='/' className='bg-primary-100 lg:h-auto'>
             <div className='container max-w-full h-2/5 flex items-center justify-center'>
                 <img className='w-52 pt-12 pb-10 md:pt-16 md:w-64 lg:pt-14' src={FmbName} alt="Logo Willian Dev" />
             </div>

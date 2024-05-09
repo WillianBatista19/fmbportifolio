@@ -1,9 +1,12 @@
-import Teste from '../../../assets/projects/teste.jpg'
+import Wod from '../../../assets/projects/WodProject.jpg'
+import Notes from '../../../assets/projects/Notesproject.jpg'
+import Perfil from '../../../assets/projects/perfilProject.jpg'
+import android from '../../../assets/projects/android.jpg'
 import MustangImg from '../../../assets/MT.webp'
 
 function Projetos() {
     return (
-        <div className='h-screen'>
+        <div id='projetos' className='h-screen'>
             <div className="h-full grid grid-cols-5 items-end">
                 <div className='col-span-2 h-full items-end gap-y-5'>
                     <div className='h-full grid grid-rows-5'>
@@ -14,7 +17,7 @@ function Projetos() {
                                 Meus Projetos
                             </h1>
                             <p className='font-akkordeonSlab font-bold w-full max-w-[450px] ml-16 text-justify text-2xl'>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur ea labore nihil ullam. Nihil nisi ex ipsum voluptatibus. Tempore facere quidem soluta nobis dicta quae libero illo alias, consequuntur odio?
+                            Nesta seção, você encontrará uma seleção dos meus projetos de desenvolvimento front-end. Cada projeto foi cuidadosamente criado para destacar minhas habilidades, demonstrando minha capacidade de criar interfaces intuitivas e responsivas. Explore esses exemplos para ter uma ideia do meu estilo de trabalho e abordagem de design.
                             </p>
                         </div>
                             
@@ -27,11 +30,11 @@ function Projetos() {
                 </div>
 
                 <div className="col-span-3 h-full flex justify-center items-center"> 
-                    <div className='grid grid-cols-2 gap-3 justify-center items-center'> 
-                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
-                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
-                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
-                        <a href="#" className='flex justify-center m-2'><img className='max-w-[350px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Teste} alt="Teste"/></a>
+                    <div className='grid grid-cols-2 gap-1 justify-center items-center'> 
+                        <a href="https://projeto-wod.vercel.app" target='_blank' className='flex justify-center m-2'><img className='max-w-[310px] max-h-[200px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Wod} alt="Teste"/></a>
+                        <a href="https://projeto-notas-nlw.vercel.app" target='_blank' className='flex justify-center m-2'><img className='max-w-[310px] max-h-[200px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Notes} alt="Teste"/></a>
+                        <a href="https://willianbatista19.github.io/Perfil-website/" target='_blank' className='flex justify-center m-2'><img className='max-w-[310px] max-h-[200px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Perfil} alt="Teste"/></a>
+                        <a href="https://willianbatista19.github.io/Projeto-Android/" target='_blank' className='flex justify-center m-2'><img className='max-w-[310px] max-h-[200px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={android} alt="Teste"/></a>
                     </div>
                 </div>
             </div>
