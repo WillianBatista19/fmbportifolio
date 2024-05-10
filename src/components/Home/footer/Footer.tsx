@@ -45,16 +45,16 @@ function Footer() {
                                 </ul>
                             </div>
 
-                            <div className='col-span-1 sm:flex items-center sm:items-start space-x-2  sm:pt-5 md:pt-0 px-5 sm:px-0 space-y-4 sm:space-y-0 order-3 sm:order-3'>
-                                <PhoneIcon className="h-7 sm:h-10 md:h-12 w-7 sm:w-10 md:w-12 p-2 rounded-full bg-white text-black" />
+                            <div className='col-span-1 flex items-center sm:items-start space-x-2 sm:pt-5 md:pt-0 px-5 sm:px-0 space-y-4 sm:space-y-0 order-3 sm:order-3'>
+                                <PhoneIcon className="h-10 md:h-12 w-10 md:w-12 p-2 rounded-full bg-white text-black" />
                                 
                                 <ul className='text-white items-center'>
-                                    <li className='font-bold text-sm sm:text-xl leading-5 sm:leading-6'>Telefone de <br/> Atendimento</li>
+                                    <li className='font-bold sm:text-xl leading-5 sm:leading-6'>Telefone de <br/> Atendimento</li>
                                 </ul>
                             </div>
 
                             <div className='flex items-end sm:items-center md:items-start col-span-1 pt-5 sm:pt-0 order-4'>
-                                <ul className='text-white font-akkordeonSlab smtext-2xl md:text-3xl font-bold'>
+                                <ul className='text-white font-akkordeonSlab text-2xl md:text-3xl font-bold'>
                                     <li>(88) 994731018</li>
                                 </ul>
                             </div>
