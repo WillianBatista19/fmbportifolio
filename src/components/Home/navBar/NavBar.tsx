@@ -17,9 +17,9 @@ function NavBar() {
 
         {/* Primeira Logo (2/5 do espaço) */}
         <div className='flex items-center w-2/5'>
-          <a href="#" className='flex-shrink-0'>
+          <Link to="/" spy={true} smooth={true} offset={-21} duration={500} className='flex-shrink-0 cursor-pointer'>
             <img className='w-10 md:w-12' src={Logo} alt="Logo"/>
-          </a>
+          </Link>
         </div>
 
         {/* Segunda Logo (1/5 do espaço) */}
@@ -66,13 +66,28 @@ function NavBar() {
       {/* Menu para Telas Pequenas (Oculto por padrão) */}
       <div className={`lg:hidden ${isMobileMenuVisible ? 'block' : 'hidden'}`}>
         <ul className='px-2 pt-2 pd-3 sm:px-3 font-staubach'>
-          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Home</li>
-          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Sobre</li>
-          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Projetos</li>
-          <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>Contato</li>
+          <Link to="/" spy={true} smooth={true} offset={-21} duration={500} className='cursor-pointer'>
+            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+              Home
+            </li>
+          </Link>
+          <Link to="sobre" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
+            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+              Sobre
+            </li>
+          </Link>
+          <Link to="projetos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
+            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+              Projetos
+            </li>
+          </Link>
+          <Link to="contatos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
+            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+              Contatos
+            </li>
+          </Link>
         </ul>
       </div>
-
     </nav>
   );
 }

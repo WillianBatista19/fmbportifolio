@@ -56,10 +56,9 @@ module.exports = {
         "primary-200": "#A70B0B",
         "primary-300": "#CCD3E0",
         "primary-400": "#424242",
-        
       },
       fontFamily: {
-        staubach: ["staubach"],
+        staubach: ["staubach", 'Georgia'],
         akkordeonSlab: ["akkordeonSlab"],
       },
       borderRadius: {

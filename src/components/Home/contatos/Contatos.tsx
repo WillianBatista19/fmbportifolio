@@ -1,16 +1,16 @@
 function Contatos() {
   return (
-    <div id="contatos" className="h-screen bg-black flex items-center">
+    <div id="contatos" className="sm:h-screen bg-black flex items-center pb-10 sm:pb-20 md:pb-0">
 
-      <div className="max-w-3xl mx-auto w-full">
+      <div className="sm:max-w-3xl sm:mx-auto w-full">
 
         <div className="space-y-4">
-          <h1 className="text-primary-200 font-akkordeonSlab font-bold text-4xl flex justify-center pt-7">Fale Comigo</h1>
-          <p className="text-white font-akkordeonSlab text-xl flex justify-center">Preencha os campos abaixo com os seguintes dados que em breve entraremos em contato.</p>
+          <h1 className="text-primary-200 font-akkordeonSlab font-bold text-3xl sm:text-4xl flex justify-center pt-7">Fale Comigo</h1>
+          <p className="w-4/5 sm:w-full mx-auto sm:mx-0 pb-5 sm:pb-o text-white font-akkordeonSlab text-base sm:text-xl text-center sm:flex sm:justify-center">Preencha os campos abaixo com os seguintes dados que em breve entraremos em contato.</p>
         </div>
 
-        <form className="grid grid-cols-5 gap-x-5 gap-y-6 mt-8">
-          <div className="col-span-3 space-y-2">
+        <form className="w-5/6 sm:w-full mx-auto sm:mx-0 sm:grid sm:grid-cols-5 sm:gap-x-5 sm:gap-y-6 sm:mt-8 space-y-5 sm:space-y-0">
+          <div className="sm:col-span-3 space-y-2">
             <label htmlFor="nome" className="block text-white font-akkordeonSlab text-lg">Nome(*)</label>
             <input type="text" id="nome" name="nome" className="mt-1 p-2 block w-full border-gray-300 rounded-2xl shadow-sm focus:ring-primary-500 focus:border-primary-500 text-black bg-white placeholder:text-primary-300" placeholder="Digite aqui"/>
           </div>
@@ -35,8 +35,8 @@ function Contatos() {
             <textarea id="mensagem" name="mensagem" rows={3} className="mt-1 p-2 block w-full h-40 max-h-40 border-gray-300 rounded-2xl shadow-sm focus:ring-primary-500 focus:border-primary-500 text-black bg-white placeholder:text-primary-300 overflow-auto" placeholder="Escreva sua mensagem aqui"></textarea>
           </div>
 
-          <div className="col-span-5 flex justify-center items-center">
-            <button type="submit" className="w-[300px] mt-1 py-3 px-4 border border-transparent rounded-full shadow-sm text-lg font-akkordeonSlab text-white font-bold bg-primary-200 hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">Enviar Mensagem </button>
+          <div className="col-span-5 flex justify-center items-center pt-2 sm:pt-5">
+            <button type="submit" className="w-[180px] sm:w-[210px] md:w-[300px] mt-1 py-3 px-4 border border-transparent rounded-full shadow-sm text-lg font-akkordeonSlab text-white font-bold bg-primary-200 hover:bg-primary-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">Enviar Mensagem </button>
           </div>
 
         </form>
