@@ -12,10 +12,10 @@ function Projetos() {
                     <div className='md:h-full md:grid sm:grid-rows-5'>
                         <div className='sm:row-span-3'>
                             <div className='h-full flex flex-col sm:justify-end items-center sm:items-end pt-10 sm:pt-0'>
-                                <h1 className='text-primary-200 sm:w-full sm:max-w-[450px] sm:ml-16 text-3xl sm:text-4xl font-akkordeonSlab font-bold pb-5 sm:mb-2'>
+                                <h1 className='text-primary-200 sm:w-full sm:max-w-[450px] sm:ml-16  text-3xl sm:text-4xl font-akkordeonSlab font-bold pb-5 sm:mb-2'>
                                     Meus Projetos
                                 </h1>
-                                <p className='font-akkordeonSlab font-bold sm:w-full sm:max-w-[450px] px-6 sm:px-0 sm:ml-16 text-justify text-xl sm:text-2xl'>
+                                <p className='font-akkordeonSlab font-bold sm:w-full max-w-sm md:max-w-md px-6 sm:px-0 sm:ml-16 text-justify text-xl sm:text-2xl'>
                                 Nesta seção, você encontrará uma seleção dos meus projetos de desenvolvimento front-end. Cada projeto foi cuidadosamente criado para destacar minhas habilidades, demonstrando minha capacidade de criar interfaces intuitivas e responsivas. Explore esses exemplos para ter uma ideia do meu estilo de trabalho e abordagem de design.
                                 </p>
                             </div>

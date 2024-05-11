@@ -45,7 +45,7 @@ function Footer() {
                                 </ul>
                             </div>
 
-                            <div className='col-span-1 flex items-center sm:items-start space-x-2 sm:pt-5 md:pt-0 px-5 sm:px-0 space-y-4 sm:space-y-0 order-3 sm:order-3'>
+                            <div className='col-span-1 flex  items-end sm:items-start space-x-2 sm:pt-5 md:pt-0 px-5 sm:px-0 space-y-4 sm:space-y-0 order-3 sm:order-3'>
                                 <PhoneIcon className="h-10 md:h-12 w-10 md:w-12 p-2 rounded-full bg-white text-black" />
                                 
                                 <ul className='text-white items-center'>
