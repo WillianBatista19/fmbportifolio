@@ -13,7 +13,7 @@ function NavBar() {
   return (
     <nav className="bg-black">
 
-      <ul className='max-w-full mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
+      <ul className='max-w-full xl:w-11/12 mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16'>
 
         {/* Primeira Logo (2/5 do espaço) */}
         <div className='flex items-center w-2/5'>
@@ -64,25 +64,25 @@ function NavBar() {
       </ul>
 
       {/* Menu para Telas Pequenas (Oculto por padrão) */}
-      <div className={`lg:hidden ${isMobileMenuVisible ? 'block' : 'hidden'}`}>
+      <div className={`lg:hidden ${isMobileMenuVisible ? 'block' : 'hidden'}` }>
         <ul className='px-2 pt-2 pd-3 sm:px-3 font-staubach'>
           <Link to="/" spy={true} smooth={true} offset={-21} duration={500} className='cursor-pointer'>
-            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+            <li className='hover:bg-gray-700 text-white flex justify-end px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
               Home
             </li>
           </Link>
           <Link to="sobre" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
-            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+            <li className='hover:bg-gray-700 text-white flex justify-end px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
               Sobre
             </li>
           </Link>
           <Link to="projetos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
-            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+            <li className='hover:bg-gray-700 text-white flex justify-end px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
               Projetos
             </li>
           </Link>
           <Link to="contatos" spy={true} smooth={true} offset={0} duration={500} className='cursor-pointer'>
-            <li className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
+            <li className='hover:bg-gray-700 text-white flex justify-end px-3 py-2 rounded-md text-base md:text-2xl font-medium transition duration-300 ease-in-out'>
               Contatos
             </li>
           </Link>

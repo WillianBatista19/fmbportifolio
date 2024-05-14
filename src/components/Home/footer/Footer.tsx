@@ -16,7 +16,7 @@ function Footer() {
                     </div>
 
                     <div className='sm:flex justify-end pt-6 pb-6'>
-                        <div className='grid grid-cols-2 pl-1 sm:pl-0 md:pl-0 md:grid-cols-4 sm:w-4/5 ml-3 sm:ml-0'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 pl-1 sm:pl-0 md:pl-0 md:grid-cols-4 sm:w-4/5 ml-3 sm:ml-0'>
                             <div className='col-span-1 sm:px-5 md:px-0 pb-5 2xl:pb-0 order-1'>
                                 <h2 className='text-primary-200 font-akkordeonSlab md:text-2xl font-bold'>Menu</h2>
 
@@ -45,11 +45,11 @@ function Footer() {
                                 </ul>
                             </div>
 
-                            <div className='col-span-1 h-1/2 flex flex-wrap items-end md:items-start space-x-2 pt-5 sm:pt-0 sm:px-5 md:px-0 space-y-4 md:space-y-0 order-3 sm:order-3'>
-                                <PhoneIcon className="h-10 lg:h-12 w-10 lg:w-12 p-2 rounded-full bg-white text-black" />
+                            <div className='col-span-1 h-1/2 flex flex-wrap items-end md:items-start space-x-2 sm:pt-5 md:pt-0 sm:px-5 md:px-0 space-y-4 md:space-y-0 order-3 sm:order-3'>
+                                <PhoneIcon className="w-7 h-7 sm:h-10 lg:h-12 sm:w-10 lg:w-12 p-2 rounded-full bg-white text-black" />
                                 
                                 <ul className='text-white items-center'>
-                                    <li className='font-bold md:text-lg leading-5 md:leading-5 lg:leading-6'>Telefone de <br/> Atendimento</li>
+                                    <li className='font-bold text md:text-lg leading-5 md:leading-5 lg:leading-6'>Telefone de <br/> Atendimento</li>
                                 </ul>
                             </div>
 
@@ -67,7 +67,6 @@ function Footer() {
                 <p className='text-xs md:text-base text-[#666666] font-akkordeonSlab text-center'>&copy; Hiromu Arakawa / SQUARE ENIX. Todos os direitos reservados. <br/> Designed by <span className='opacity-70 uppercase tracking-wider my-0 mx-1'>Willian Batista</span></p>
             </div> 
         </>
-
     )
 }
 
