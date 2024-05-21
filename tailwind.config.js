@@ -58,8 +58,8 @@ module.exports = {
         "primary-400": "#424242",
       },
       fontFamily: {
-        staubach: ["staubach", 'Georgia'],
-        akkordeonSlab: ["akkordeonSlab"],
+        // staubach: ["staubach", 'Georgia'],
+        // akkordeonSlab: ["akkordeonSlab"],
       },
       borderRadius: {
         lg: "var(--radius)",
