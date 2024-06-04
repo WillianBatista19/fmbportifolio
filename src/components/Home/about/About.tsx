@@ -12,25 +12,25 @@ import Autoplay from "embla-carousel-autoplay"
 function about() {
 
     return (
-        <div id='sobre' className="h-auto xl:h-auto bg-black">
+        <div id='sobre' className="h-auto bg-black xl:h-auto">
             <div className='grid grid-cols-1 lg:grid-cols-2 lg:space-y-10 xl:pt-4'>
                 <div className='flex justify-center mt-12 md:mb-10 lg:justify-end lg:items-center lg:pr-20 lg:mt-28'>
                     <img className='w-48 md:w-60 lg:w-80' src={Ed2} alt="Ed" />
                 </div>
 
                 <div className='p-8 mx-auto sm:mx-auto md:mx-auto md:mb-10 md:my-0 lg:mx-5 max-w-sm md:max-w-lg xl:max-w-[547px] text-justify'>  
-                    <p className='text-white mb-5 font-staubach text-base md:text-2xl'>
-                         <span className='text-primary-200 block text-4xl mb-4 pl-3'>Olá,</span> Sou um desenvolvedor front-end com conhecimentos em JavaScript, HTML 5, CSS3 e React. Atualmente, estou cursando o 7º semestre de Sistemas de Informação, o que me proporcionou uma base sólida em programação.
+                    <p className='mb-5 text-base text-white font-encode md:text-2xl'>
+                         <span className='block pl-3 mb-4 text-4xl text-primary-200'>Olá,</span> Sou um desenvolvedor front-end com conhecimentos em JavaScript, HTML 5, CSS3 e React. Atualmente, estou cursando o 7º semestre de Sistemas de Informação, o que me proporcionou uma base sólida em programação.
                     </p>
 
-                    <p className='text-white mb-5 font-staubach text-base md:text-2xl'>
+                    <p className='mb-5 text-base text-white font-encode md:text-2xl'>
                         Minha jornada começou com a curiosidade de como as coisas funcionam na web, e desde então venho me aprimorando constantemente para criar experiências digitais impactantes. Tenho um olhar atento aos detalhes e estou comprometido em oferecer soluções que atendam às necessidades do cliente e aos padrões de usabilidade.
                     </p>
                 </div>
             </div>
-            <div className='grid grid-cols-1 w-full justify-center gap-y-16 xl:gap-y-20'>
+            <div className='grid justify-center w-full grid-cols-1 gap-y-16 xl:gap-y-20'>
 
-                <h1 className='flex justify-center text-3xl sm:text-4xl font-staubach lg:mt-20 text-primary-200'>Minhas Skills</h1>
+                <h1 className='flex justify-center text-3xl sm:text-4xl font-encode lg:mt-20 text-primary-200'>Minhas Skills</h1>
 
                 <Carousel opts={{loop: true,}} plugins={[ Autoplay({ delay: 2000,}),]} className='flex justify-center mb-16 xl:px-10 2xl:px-0 xl:mb-20'>
                     <CarouselContent className='md:-ml-10 xl:-ml-24'>
