@@ -1,7 +1,7 @@
 import Wod from '../../../assets/projects/WodProject.jpg'
-import Notes from '../../../assets/projects/Notesproject.jpg'
+import Mavi from '../../../assets/projects/MaviRed.png'
 import Perfil from '../../../assets/projects/perfilProject.jpg'
-import android from '../../../assets/projects/android.jpg'
+import Sade from '../../../assets/projects/capavideo.webp'
 import MustangImg from '../../../assets/MT.webp'
 
 function Projetos() {
@@ -29,10 +29,10 @@ function Projetos() {
 
                 <div className="items-center justify-center h-full pb-10 sm:col-span-3 sm:flex xl:pb-0"> 
                     <div className='grid items-center justify-center gap-1 xl:grid-cols-2 md:gap-4'> 
-                        <a href="https://projeto-wod.vercel.app" target='_blank' className='flex justify-center m-2'><img className='max-w-[250px] sm:max-w-[310px] md:max-w-[500px] max-h-[200px] md:max-h-[400px] lg:max-w-[600px] lg:max-h-[500px] xl:max-w-[300px] 2xl:max-w-[400px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Wod} alt="Teste"/></a>
-                        <a href="https://projeto-notas-nlw.vercel.app" target='_blank' className='flex justify-center m-2'><img className='max-w-[250px] sm:max-w-[310px] md:max-w-[500px] max-h-[200px] md:max-h-[400px] lg:max-w-[600px] lg:max-h-[500px] xl:max-w-[300px] 2xl:max-w-[400px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Notes} alt="Teste"/></a>
-                        <a href="https://willianbatista19.github.io/Perfil-website/" target='_blank' className='flex justify-center m-2'><img className='max-w-[250px] sm:max-w-[310px] md:max-w-[500px] max-h-[200px] md:max-h-[400px] lg:max-w-[600px] lg:max-h-[500px] xl:max-w-[300px] 2xl:max-w-[400px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Perfil} alt="Teste"/></a>
-                        <a href="https://willianbatista19.github.io/Projeto-Android/" target='_blank' className='flex justify-center m-2'><img className='max-w-[250px] sm:max-w-[310px] md:max-w-[500px] max-h-[200px] md:max-h-[400px] lg:max-w-[600px] lg:max-h-[500px] xl:max-w-[300px] xl:min-h-[196px] 2xl:max-w-[400px] 2xl:min-h-[260px] rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={android} alt="Teste"/></a>
+                        <a href="https://projeto-wod.vercel.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Wod} alt="Projeto Wod Site"/></a>
+                        <a href="https://studiomavi3d.netlify.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Mavi} alt="Studio Mavi Site"/></a>
+                        <a href="https://willianbatista19.github.io/Perfil-website/" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Perfil} alt="Perfil website"/></a>
+                        <a href="https://sade-three.vercel.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Sade} alt="Sade Site"/></a>
                     </div>
                 </div>
             </div>
