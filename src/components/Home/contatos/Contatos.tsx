@@ -38,7 +38,7 @@ function Contatos() {
 
           <div className="space-y-2 md:col-span-2">
             <label htmlFor="telefone" className="block text-sm text-white font-encode">Telefone</label>
-            <input type="tel" id="telefone" name="telefone" pattern="[0-9]{11}" className="block w-full p-2 mt-1 text-black bg-white border-gray-300 shadow-sm sm:text-base rounded-2xl focus:ring-primary-500 focus:border-primary-500 placeholder:text-primary-300" placeholder="Exemplo: 11 88888-8888" />
+            <input type="tel" id="telefone" name="telefone" pattern="\d{2} \d{5}-\d{4}"className="block w-full p-2 mt-1 text-black bg-white border-gray-300 shadow-sm sm:text-base rounded-2xl focus:ring-primary-500 focus:border-primary-500 placeholder:text-primary-300" placeholder="Exemplo: 88 99473-1018" />
           </div>
 
           <div className="space-y-2 md:col-span-3">

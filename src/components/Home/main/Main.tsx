@@ -11,7 +11,7 @@ function Main() {
 
             <div className='grid w-full grid-cols-1 xl:grid-cols-2'>
                 <div className='flex items-center xl:w-full lg:ml-8 xl:ml-20'>
-                    <h1 className='w-full py-10 ml-3 text-4xl text-white md:ml-5 md:mt-10 md:text-5xl xl:text-6xl font-encode 2xl:py-0'>
+                    <h1 className='w-full py-10 ml-3 text-4xl text-white font-encode md:ml-5 md:mt-10 md:text-5xl xl:text-6xl 2xl:py-0'>
                         <span className='text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to to-gray-400'>Olá, eu sou{" "}</span>
                         <br />
                     <TypeAnimation
