@@ -1,6 +1,6 @@
-import Wod from '../../../assets/projects/WodProject.jpg'
+import Wod from '../../../assets/projects/barbearia.png'
 import Mavi from '../../../assets/projects/MaviRed.png'
-import Perfil from '../../../assets/projects/perfilProject.jpg'
+import Perfil from '../../../assets/projects/bodypiercer.png'
 import Sade from '../../../assets/projects/capavideo.webp'
 import MustangImg from '../../../assets/MT.webp'
 
@@ -29,9 +29,9 @@ function Projetos() {
 
                 <div className="items-center justify-center h-full pb-10 sm:col-span-3 sm:flex xl:pb-0"> 
                     <div className='grid items-center justify-center gap-1 xl:grid-cols-2 md:gap-4'> 
-                        <a href="https://projeto-wod.vercel.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Wod} alt="Projeto Wod Site"/></a>
+                        <a href="https://barbeariatemplate.teiastudios.com.br" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Wod} alt="Projeto Wod Site"/></a>
                         <a href="https://studio-mavi.vercel.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Mavi} alt="Studio Mavi Site"/></a>
-                        <a href="https://willianbatista19.github.io/Perfil-website/" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Perfil} alt="Perfil website"/></a>
+                        <a href="https://bodypiercertemplate.teiastudios.com.br" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Perfil} alt="Perfil website"/></a>
                         <a href="https://sade-three.vercel.app" target='_blank' className='flex justify-center m-2'><img className='w-[400px] h-[260px] object-cover rounded-3xl shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] hover:scale-105 transition-transform duration-300' src={Sade} alt="Sade Site"/></a>
                     </div>
                 </div>
